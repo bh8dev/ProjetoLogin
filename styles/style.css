@@ -1,0 +1,89 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-image: url("../images/back-login.jpeg");
+    background-repeat:space;
+    color: #009c3b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input
+{
+    display: block;
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    outline: none;
+}
+
+div#form-body
+{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+}
+
+div#form-body-cad
+{
+    /*background-color: red;*/
+    width: 420px;
+    margin: 0 auto 0px auto;
+}
+
+div#form-body h1, div#form-body-cad h1
+{
+    text-align: center;
+    padding: 20px;
+}
+
+a
+{
+    color: #009c3b;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+input[type=submit]
+{
+    background-color: #002776;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+div#msg-sucesso
+{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+
+}
+
+div.msg-erro
+{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-color: #d4edda;
+    color: #721c24;
+}
